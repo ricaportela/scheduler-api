@@ -5,7 +5,7 @@ Getting Started
 1. Make a new virtualenv: ``virtualenv .venv``
 2. Activate the virtualenv: ``source .venv/bin/activate``
 3. Install: ``pip install -r requirements.txt``
-4. Run the server: ``python app/app.py``
+4. Run the server: ``python run.py``
 
 Solution
 -------------------
