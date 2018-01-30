@@ -7,5 +7,4 @@ agendamento_app = Flask('agendamento_app')
 def home():
     return 'agendamentos'
 
-if __name__ == "__main__":
-    agendamento_app.run()
+
