@@ -1,12 +1,11 @@
 import unittest
-from app import agendamento_app
+from app.core import agendamento_app
 
 
 class TestHome(unittest.TestCase):
     def setUp(self):
         app = agendamento_app.test_client()
         self.response = app.get('/')
-
 
     def test_get(self):
         self.assertEqual(200, self.response.status_code)
