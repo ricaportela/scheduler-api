@@ -1,8 +1,8 @@
-from app.core import agendamento_app 
+from app.core import appointments_app 
 
 
 if __name__ == "__main__":
-    agendamento_app.run()
+    appointments_app.run(debug=True)
 
 
 

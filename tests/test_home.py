@@ -1,10 +1,10 @@
 import unittest
-from app.core import agendamento_app
+from app.core import appointments_app
 
 
 class TestHome(unittest.TestCase):
     def setUp(self):
-        app = agendamento_app.test_client()
+        app = appointments_app.test_client()
         self.response = app.get('/')
 
     def test_get(self):
@@ -13,6 +13,8 @@ class TestHome(unittest.TestCase):
     def test_content_type(self):
         self.assertIn('text/html', self.response.content_type)
 
+   # def test_get_appointments(self):
+   # def test_get_appointment(self):
 
 if __name__ == '__main__':
     unittest.main()
