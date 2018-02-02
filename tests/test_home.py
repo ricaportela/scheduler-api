@@ -13,8 +13,6 @@ class TestHome(unittest.TestCase):
     def test_content_type(self):
         self.assertIn('text/html', self.response.content_type)
 
-   # def test_get_appointments(self):
-   # def test_get_appointment(self):
 
 if __name__ == '__main__':
     unittest.main()

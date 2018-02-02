@@ -2,7 +2,7 @@ from app.core import appointments_app
 
 
 if __name__ == "__main__":
-    appointments_app.run(debug=True)
+    appointments_app.run()
 
 
 
