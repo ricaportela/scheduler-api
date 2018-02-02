@@ -11,10 +11,15 @@ Solution
 -------------------
 Development an API with Flask
 
-To acess API thru Browser
+To access API thru Browser
 ------------------------------
-* List of Schedules
- ``http://127.0.0.1:5000/schedules`` 
+* List of Appointments
+ ``http://127.0.0.1:5000/appointments`` 
 
-* Detail Schedule'
- ``http://127.0.0.1:5000/schedules/1/``
+* Detail Appointments'
+ ``http://127.0.0.1:5000/appointments/1/``
+
+
+* To access API on Heroku
+------------------------------
+``https://dashboard.heroku.com/apps/scheduler-desafio-api``

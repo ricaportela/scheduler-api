@@ -32,9 +32,9 @@ def get_appointments():
 
 @appointments_app.route('/appointments/appointment/<int:appointment_id>', methods=['GET'])
 def get_appointment(appointment_id):
-    print(appointment_id)
-    #appointment = [appointment for appointment in appointments if appointments['id'] == appointment_id]
-    #if len(appointment) == 0:
-    #    abort(404)
-    return jsonify({'appointment': appointment[0]})
+    print("99999999 =  ", appointment_id)
+    appointment = [appointment for appointment in appointments if appointments['id'] == appointment_id]
+    if len(appointment) == 0:
+        abort(404)
+    return jsonify({'appointments': appointments[0]})
 
