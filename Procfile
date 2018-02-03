@@ -1,1 +1,1 @@
-web: gunicorn run:agendamento_app --log-file=-
+web: gunicorn run:appointments_app --log-file=-

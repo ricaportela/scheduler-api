@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask import abort
 
 
-appointments_app = Flask('appointments_app')
+appointments_app = Flask("appointments_app")
 
 
 appointments = [

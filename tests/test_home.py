@@ -4,8 +4,9 @@ from app.core import appointments_app
 
 class TestHome(unittest.TestCase):
     def setUp(self):
-        app = appointments_app.test_client()
-        self.response = app.get('/')
+        client = appointments_app.test_client()
+        client.testing = True
+        self.response = client.get('/appointments')
 
     def test_get(self):
         self.assertEqual(200, self.response.status_code)
