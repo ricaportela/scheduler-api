@@ -5,4 +5,4 @@ install:
     - pip install -U -r requirements.txt
 
 script:
-    - python tests/test_home.py
+    - python -m unittest tests/test_home.py

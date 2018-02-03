@@ -11,8 +11,8 @@ class TestHome(unittest.TestCase):
     def test_get(self):
         self.assertEqual(200, self.response.status_code)
 
-    def test_content_type(self):
-        self.assertIn('text/html', self.response.content_type)
+    # def test_content_type(self):
+    #     self.assertIn('text/html', self.response.content_type)
 
 
 if __name__ == '__main__':
