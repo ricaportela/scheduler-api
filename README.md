@@ -20,6 +20,10 @@ To access API thru Browser
  ``http://127.0.0.1:5000/appointments/1/``
 
 
-* To access API on Heroku
+To access API on Heroku
 ------------------------------
-``https://dashboard.heroku.com/apps/scheduler-desafio-api``
+List all appointements
+``https://dashboard.heroku.com/apps/scheduler-desafio-api/appointments``
+
+Get an appointement
+``https://dashboard.heroku.com/apps/scheduler-desafio-api/appointment/1``
