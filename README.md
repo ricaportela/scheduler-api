@@ -16,14 +16,14 @@ To access API thru Browser
 * List of Appointments
  ``http://127.0.0.1:5000/appointments`` 
 
-* Detail Appointments'
+* Detail Appointments
  ``http://127.0.0.1:5000/appointments/1/``
 
 
 To access API on Heroku
 ------------------------------
-List all appointements
-``https://dashboard.heroku.com/apps/scheduler-desafio-api/appointments``
+* List all appointements
+``https://scheduler-desafio-api.herokuapp.com/appointments``
 
-Get an appointement
-``https://dashboard.heroku.com/apps/scheduler-desafio-api/appointment/1``
+* Get an appointement
+``https://scheduler-desafio-api.herokuapp.com/appointment/1``
